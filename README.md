@@ -1,2 +1,20 @@
-# easy-earning
-Easy Earning একটি মোবাইল ওয়েব অ্যাপ্লিকেশন, যেখানে ব্যবহারকারীরা সাধারণ কাজ সম্পন্ন করে পুরস্কার অর্জন করতে পারেন। এতে ইউজার ওয়ালেট, জব বোর্ড এবং ব্যবস্থাপনার জন্য একটি অ্যাডমিন প্যানেলের মতো বৈশিষ্ট্য রয়েছে। React এবং Tailwind CSS দিয়ে তৈরি।
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/drive/1z_XuAA7m8e4xPWmTWqmKipZDJMpGEqI0
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

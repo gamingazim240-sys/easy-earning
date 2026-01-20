@@ -1,0 +1,5 @@
+{
+  "name": "Easy Earning",
+  "description": "A mobile-first web application for users to earn by completing tasks, with a comprehensive admin panel for management. Features include wallet management, deposits, withdrawals, and task posting.",
+  "requestFramePermissions": []
+}
