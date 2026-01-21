@@ -39,6 +39,7 @@ const AdminLayout = () => {
     { name: 'Manage Users', path: '/admin/users', icon: 'fa-solid fa-users' },
     { name: 'Manage Jobs', path: '/admin/jobs', icon: 'fa-solid fa-briefcase' },
     { name: 'Manage Submissions', path: '/admin/submissions', icon: 'fa-solid fa-clipboard-check' },
+    { name: 'Manage Gmail Sales', path: '/admin/gmail-sales', icon: 'fa-brands fa-google' },
     { name: 'Deposits', path: '/admin/deposits', icon: 'fa-solid fa-arrow-down-to-bracket' },
     { name: 'Withdrawals', path: '/admin/withdrawals', icon: 'fa-solid fa-arrow-up-from-bracket' },
     { name: 'Manage Notices', path: '/admin/notices', icon: 'fa-solid fa-bullhorn' },
