@@ -54,7 +54,16 @@ const Transactions = () => {
                                             <TransactionIcon type={tx.type} />
                                         </div>
                                         <div>
-                                            <p className="font-semibold text-gray-800 capitalize">{tx.type.replace('-', ' ')}</p>
+                                            <div className="flex items-center space-x-3 mb-1">
+                                                <p className="font-semibold text-gray-800 capitalize">{tx.type.replace('-', ' ')}</p>
+                                                <span className={`px-2 py-0.5 text-xs font-medium rounded-full capitalize ${
+                                                    tx.status === 'pending' ? 'bg-yellow-100 text-yellow-800' :
+                                                    tx.status === 'approved' ? 'bg-green-100 text-green-800' :
+                                                    'bg-red-100 text-red-800'
+                                                }`}>
+                                                    {tx.status}
+                                                </span>
+                                            </div>
                                             <p className="text-xs text-gray-500">{new Date(tx.date).toLocaleString()}</p>
                                             {tx.details && <p className="text-xs text-gray-400 mt-1 italic">"{tx.details}"</p>}
                                             {tx.status === 'rejected' && tx.rejectionReason && (
@@ -78,7 +87,5 @@ const Transactions = () => {
         </div>
     );
 };
-
-export default Transactions;
 
 export default Transactions;
